@@ -1,0 +1,9 @@
+<ehcache>
+	<cache name="repeatCache"
+	maxElementsInMemory="50000000"
+	eternal="false"
+	overflowToDisk="true"
+	timeToIdleSeconds="86410"
+	timeToLiveSeconds="86410"
+	memoryStoreEvictionPolicy="LFU" />
+</ehcache>
